@@ -1,0 +1,723 @@
+/* start navbar */
+
+nav li {
+
+  padding: 0.5rem 1rem;
+
+}
+
+nav li a {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+
+
+@media screen and (min-width:992px) {
+  nav li .nav-link::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: -100%;
+    bottom: 0;
+    width: 80%;
+    background-color: white;
+    transition: left 0.5s;
+  }
+
+  .navbar-nav .nav-link.active::before,
+  nav .nav-link:hover::before {
+    left: 0;
+  }
+
+  .dropdown li a::before {
+    content: none;
+  }
+
+  .dropdown-toggle::before {
+    content: none !important;
+  }
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block !important;
+  margin-top: 2px;
+  overflow: none;
+}
+
+.dropstart:hover>.dropdown-menu {
+  display: block !important;
+  top: 0;
+  right: 100%;
+}
+
+/* end navbar */
+
+/* start home */
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.home h2 {
+  position: relative;
+  font-size: 4.5rem;
+}
+
+.home h2::before {
+  content: "|";
+  position: absolute;
+  font-size: 2.5rem;
+  left: 50%;
+  top: 120%;
+  transform: translateX(-50%);
+  animation: anime 15s infinite;
+}
+
+@keyframes anime {
+  0% {
+    content: "D|";
+  }
+
+  1% {
+    content: "De|";
+
+  }
+
+  2% {
+    content: "Des|";
+  }
+
+  3% {
+    content: "Desi|";
+
+  }
+
+  4% {
+    content: "Desin|";
+
+  }
+
+  5% {
+    content: "Desing|";
+
+  }
+
+  6% {
+    content: "Desinge|";
+
+  }
+
+  7% {
+    content: "Desinger|";
+
+  }
+
+  8% {
+    content: "Desinger";
+
+  }
+
+  10% {
+    content: "Desinger|";
+
+  }
+
+  12% {
+    content: "Desinger";
+
+  }
+
+  14% {
+    content: "Desinger|";
+
+  }
+
+  15% {
+    content: "Desinge|";
+
+  }
+
+  16% {
+    content: "Desing|";
+
+  }
+
+  17% {
+    content: "Desin|";
+
+  }
+
+  18% {
+    content: "Desi|";
+
+  }
+
+  19% {
+    content: "Des|";
+
+  }
+
+  20% {
+    content: "De|";
+
+  }
+
+  21% {
+    content: "Dev|";
+
+  }
+
+  22% {
+    content: "Deve|";
+
+  }
+
+  23% {
+    content: "Devel|";
+
+  }
+
+  24% {
+    content: "Develo|";
+
+  }
+
+  25% {
+    content: "Develop|";
+
+  }
+
+  26% {
+    content: "Develope|";
+
+  }
+
+  27% {
+    content: "Developer|";
+
+  }
+
+  28% {
+    content: "Developer";
+
+  }
+
+  30% {
+    content: "Developer|";
+
+  }
+
+  32% {
+    content: "Developer";
+
+  }
+
+  34% {
+    content: "Developer|";
+
+  }
+
+  35% {
+    content: "Develope|";
+
+  }
+
+  36% {
+    content: "Develop|";
+
+  }
+
+  37% {
+    content: "Develo|";
+
+  }
+
+  38% {
+    content: "Devel|";
+
+  }
+
+  39% {
+    content: "Dev|";
+
+  }
+
+  40% {
+    content: "De|";
+
+  }
+
+  41% {
+    content: "D|";
+
+  }
+
+  42% {
+    content: "|";
+
+  }
+
+  43% {
+    content: "F|";
+
+  }
+
+  44% {
+    content: "Fr|";
+
+  }
+
+  45% {
+    content: "Fre|";
+
+  }
+
+  46% {
+    content: "Free|";
+
+  }
+
+  47% {
+    content: "Freel|";
+
+  }
+
+  48% {
+    content: "Freela|";
+
+  }
+
+  49% {
+    content: "Freelan|";
+
+  }
+
+  50% {
+    content: "Freelanc|";
+
+  }
+
+  51% {
+    content: "Freelance|";
+
+  }
+
+  52% {
+    content: "Freelancer|";
+
+  }
+
+  53% {
+    content: "Freelancer";
+
+  }
+
+  55% {
+    content: "Freelancer|";
+
+  }
+
+  57% {
+    content: "Freelancer";
+
+  }
+
+  59% {
+    content: "Freelancer|";
+
+  }
+
+  60% {
+    content: "Freelance|";
+
+  }
+
+  61% {
+    content: "Freelanc|";
+
+  }
+
+  62% {
+    content: "Freelan|";
+
+  }
+
+  63% {
+    content: "Freela|";
+
+  }
+
+  64% {
+    content: "Freel|";
+
+  }
+
+  65% {
+    content: "Free|";
+
+  }
+
+  67% {
+    content: "Fre|";
+
+  }
+
+  68% {
+    content: "Fr|";
+
+  }
+
+  69% {
+    content: "F|";
+
+  }
+
+  70% {
+    content: "|";
+
+  }
+
+  71% {
+    content: "P|";
+
+  }
+
+  72% {
+    content: "Ph|";
+
+  }
+
+  73% {
+    content: "Pho|";
+
+  }
+
+  74% {
+    content: "Phot|";
+
+  }
+
+  75% {
+    content: "Photo|";
+
+  }
+
+  76% {
+    content: "Photog|";
+
+  }
+
+  77% {
+    content: "Photogr|";
+
+  }
+
+  79% {
+    content: "Photogra|";
+
+  }
+
+  80% {
+    content: "Photograp|";
+
+  }
+
+  81% {
+    content: "Photograph|";
+
+  }
+
+  82% {
+    content: "Photographe|";
+
+  }
+
+  83% {
+    content: "Photographer|";
+
+  }
+
+  85% {
+    content: "Photographer";
+
+  }
+
+  86% {
+    content: "Photographer|";
+
+  }
+
+  87% {
+    content: "Photographer";
+
+  }
+
+  88% {
+    content: "Photographer|";
+
+  }
+
+  89% {
+    content: "Photographe|";
+
+  }
+
+  90% {
+    content: "Photograph|";
+
+  }
+
+  91% {
+    content: "Photograp|";
+
+  }
+
+  92% {
+    content: "Photogra|";
+
+  }
+
+  93% {
+    content: "Photogr|";
+
+  }
+
+  94% {
+    content: "Photog|";
+
+  }
+
+  95% {
+    content: "Photo|";
+
+  }
+
+  96% {
+    content: "Phot|";
+
+  }
+
+  97% {
+    content: "Pho|";
+
+  }
+
+  98% {
+    content: "Ph|";
+
+  }
+
+  99% {
+    content: "P|";
+
+  }
+
+  100% {
+    content: "|";
+
+  }
+}
+
+/* end home */
+
+/* start about */
+
+.about .progress {
+  overflow: unset;
+}
+
+.about h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 85%;
+  bottom: -10px;
+  height: 3px;
+  background-color: #0078FF;
+}
+
+/* end about */
+
+/* start services */
+
+.title p::before {
+  content: "";
+  height: 5px;
+  width: 100px;
+  background-color: #0078FF;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.services .icon {
+  width: 130px;
+  height: 130px;
+  border: 10px #0078FF solid;
+}
+
+.card:hover .icon {
+  background-color: #0078FF;
+  color: white;
+  border-color: #CDE1F8;
+}
+
+.number {
+  background-image: linear-gradient(rgba(13, 110, 253, .3), rgba(13, 110, 253, .3)), url("..\\images\\counters-bg.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+/* end services */
+
+/* start work */
+
+.work .cards,
+.work .cards picture {
+  overflow: hidden;
+}
+
+.work .cards picture img {
+  transition: 0.5s transform;
+}
+
+.work .cards:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.slider {
+  background-image: linear-gradient(rgba(13, 110, 253, .4), rgba(13, 110, 253, .4)), url("../images/overlay-bg.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.slider .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.slider .carousel-indicators img {
+  width: 30px;
+}
+
+/* end work */
+
+/* start blog */
+
+.blog .card-body-1::before {
+  content: "TRAVEL";
+  padding: 5px 10px;
+  color: white;
+  background-color: #0078FF;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog .card-body-2::before {
+  content: "WEB DESIGN";
+  padding: 5px 10px;
+  color: white;
+  background-color: #0078FF;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog .card-body-3::before {
+  content: "WEB DESIGN";
+  padding: 5px 10px;
+  color: white;
+  background-color: #0078FF;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog span {
+  transition: 0.5s color;
+  cursor: pointer;
+}
+
+.blog span:hover {
+  color: #0078FF;
+  cursor: pointer;
+}
+
+.blog .pointer {
+  cursor: pointer;
+}
+
+/* end blog */
+
+/* start contact */
+
+.contact {
+  background-image: linear-gradient(rgba(13, 110, 253, .4), rgba(13, 110, 253, .4)), url("../images/overlay-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contact .cont::after {
+  content: "";
+  position: absolute;
+  width: 6.5rem;
+  height: 0.2rem;
+  background-color: #0078ff;
+  bottom: -1rem;
+  left: 0;
+}
+
+.contact form button {
+  background-color: #0078ff;
+  border: 4px solid;
+  transition: 0.5s;
+}
+
+.contact form button:hover {
+  border: .275rem solid #549cee;
+}
+
+.contact .contact-icon ul li {
+  height: 3rem;
+  width: 3rem;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.contact .contact-icon ul li:hover {
+  border-color: #549cee !important;
+  background-color: #0078ff;
+  color: white;
+}
+
+/* end conyact */
+
+/* srart footer */
+
+footer {
+  background-image: linear-gradient(rgba(13, 110, 253, .7), rgba(13, 110, 253, .7));
+}
+
+/* end footer */
